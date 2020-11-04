@@ -35,7 +35,7 @@ export class FirstpathPage implements OnInit{
       return value;
     });
     const check = JSON.parse(nav_path);
-  //var map_path = eval("(" + check[2] + ")");
+  //var map_path = eval("(" + check[2] + ")"); try git test
     //console.log(map_path()[0]);
     var y=3;
     var z: number;
