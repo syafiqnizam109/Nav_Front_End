@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'shop_search',
+    loadChildren: () => import('../../shop-search/shop-search.module').then( m => m.ShopSearchPageModule)
+  },
+  {
+    path: 'firstpath',
+    loadChildren: () => import('../../firstpath/firstpath.module').then( m => m.FirstpathPageModule)
+  },
 ];
 
 @NgModule({
